@@ -10,3 +10,5 @@ $ bundle exec middleman build
 When the site is ready to deploy run:
 1. $ middleman build [--clean]
 2. $ middleman deploy [--build-before]
+
+I'm currently on /basics/helper_methods/

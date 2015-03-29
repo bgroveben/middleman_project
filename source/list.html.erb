@@ -7,6 +7,12 @@ my_list:
 ---
 
 <h1>List</h1>
+<p class="doc">
+  <%= link_to "Welcome", "/welcome.html" %>
+</p>
+<p class="doc">
+  <%= link_to "Index", "/index.html" %>
+</p>
 <ol>
   <% current_page.data.my_list.each do |f| %>
   <li><%= f %></li>
